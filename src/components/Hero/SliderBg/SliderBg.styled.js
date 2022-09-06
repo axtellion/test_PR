@@ -27,6 +27,6 @@ export const Container = styled.div`
 
 export const BgHero = styled.img`
   display: block;
-  height: 700px;
+  height: 100vh;
   width: 100%;
 `;

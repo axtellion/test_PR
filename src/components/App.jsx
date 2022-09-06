@@ -7,7 +7,7 @@ import { OffersForm } from './OffersForm/OffersForm';
 import { Footer } from './Footer/Footer';
 export const App = () => {
   return (
-    <Box width="1926px" mx="auto">
+    <Box width="100wh" mx="auto">
       <Hero />
       <Slid />
       <Specificity />
