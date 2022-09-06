@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.844acd20.css",
-    "main.js": "/react-homework-template/static/js/main.c22a0182.js",
-    "static/media/offerFormBg.jpg": "/react-homework-template/static/media/offerFormBg.c46e9d3160bb53a12c64.jpg",
-    "static/media/bg_1.jpg": "/react-homework-template/static/media/bg_1.fb9c1ce0d9056f4c9113.jpg",
-    "static/media/bg_3.jpg": "/react-homework-template/static/media/bg_3.5ffd1fbb14f1a1c6d6d1.jpg",
-    "static/media/bg_2.jpg": "/react-homework-template/static/media/bg_2.9b082504c58f87ae920d.jpg",
-    "static/media/bg_4.jpg": "/react-homework-template/static/media/bg_4.385b35c9d40e4999eeaa.jpg",
-    "static/media/info.jpg": "/react-homework-template/static/media/info.aaa5d7c405cb805cba1b.jpg",
-    "static/media/slice_info_2.jpg": "/react-homework-template/static/media/slice_info_2.a2b9397bd07e085674a0.jpg",
-    "static/media/slice_info_1.jpg": "/react-homework-template/static/media/slice_info_1.9b50d4e573a0ee2783a2.jpg",
-    "static/media/slick.svg": "/react-homework-template/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/react-homework-template/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/react-homework-template/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/react-homework-template/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/react-homework-template/index.html",
-    "main.844acd20.css.map": "/react-homework-template/static/css/main.844acd20.css.map",
-    "main.c22a0182.js.map": "/react-homework-template/static/js/main.c22a0182.js.map"
+    "main.css": "/test_PR/static/css/main.724c45cd.css",
+    "main.js": "/test_PR/static/js/main.a1403069.js",
+    "static/media/offerFormBg.jpg": "/test_PR/static/media/offerFormBg.c46e9d3160bb53a12c64.jpg",
+    "static/media/bg_1.jpg": "/test_PR/static/media/bg_1.fb9c1ce0d9056f4c9113.jpg",
+    "static/media/bg_3.jpg": "/test_PR/static/media/bg_3.5ffd1fbb14f1a1c6d6d1.jpg",
+    "static/media/bg_2.jpg": "/test_PR/static/media/bg_2.9b082504c58f87ae920d.jpg",
+    "static/media/bg_4.jpg": "/test_PR/static/media/bg_4.385b35c9d40e4999eeaa.jpg",
+    "static/media/info.jpg": "/test_PR/static/media/info.aaa5d7c405cb805cba1b.jpg",
+    "static/media/slice_info_2.jpg": "/test_PR/static/media/slice_info_2.a2b9397bd07e085674a0.jpg",
+    "static/media/slice_info_1.jpg": "/test_PR/static/media/slice_info_1.9b50d4e573a0ee2783a2.jpg",
+    "static/media/slick.svg": "/test_PR/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/test_PR/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/test_PR/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/test_PR/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/test_PR/index.html",
+    "main.724c45cd.css.map": "/test_PR/static/css/main.724c45cd.css.map",
+    "main.a1403069.js.map": "/test_PR/static/js/main.a1403069.js.map"
   },
   "entrypoints": [
-    "static/css/main.844acd20.css",
-    "static/js/main.c22a0182.js"
+    "static/css/main.724c45cd.css",
+    "static/js/main.a1403069.js"
   ]
 }
