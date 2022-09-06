@@ -18,8 +18,8 @@ export const Container = styled.div`
     right: 1000px;
     button {
       background: gold;
-      border-radius: 100%;
-      width: 20px;
+      border-radius: 50%;
+      width: 15px;
       height: 5px;
     }
   }
