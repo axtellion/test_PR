@@ -81,7 +81,7 @@ export const OffersForm = () => {
                 <RadioInput
                   name="position_id"
                   type="radio"
-                  value="ри-Ланка"
+                  value="Шри-Ланка"
                   id="3"
                 />
                 <label htmlFor="3">Шри-Ланка</label>
