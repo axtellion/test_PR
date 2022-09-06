@@ -35,14 +35,17 @@ export const Title = styled.h2`
   width: 1200px;
   margin: 0 auto;
   margin-bottom: 40px;
+  padding-left: 15px;
 
   text-transform: uppercase;
 `;
 
 export const OfferForm = styled(Form)`
-  width: 1200px;
+  max-width: 1200px;
   height: 130px;
 
+  padding-left: 15px;
+  padding-right: 15px;
   display: flex;
   justify-content: center;
   align-items: center;

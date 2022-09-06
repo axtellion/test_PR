@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const Wrap = styled.div`
   position: absolute;
-
+  max-width: 1250px;
   left: 0;
   top: 400px;
 

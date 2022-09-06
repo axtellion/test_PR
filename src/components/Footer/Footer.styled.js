@@ -7,8 +7,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
 
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 15px;
 `;
 
 export const Text = styled.p`

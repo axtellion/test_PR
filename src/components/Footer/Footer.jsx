@@ -20,7 +20,7 @@ import { Box } from 'components/Box';
 
 export const Footer = () => {
   return (
-    <Box bg=" #4682b4;">
+    <Box bg=" #4682b4">
       <Container>
         <div>
           <LogoImg src={footerLogo} alt="Logo" />

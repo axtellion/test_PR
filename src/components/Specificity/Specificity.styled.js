@@ -5,6 +5,7 @@ export const Title = styled.h2`
   font-size: 25px;
   font-weight: 700px;
 
+  padding-left: 40px;
   margin: 0 auto;
   margin-bottom: 50px;
 
@@ -23,16 +24,17 @@ export const Container = styled.div`
 
   display: flex;
   justify-content: space-between;
-
+  padding-left: 40px;
+  padding-right: 40px;
   margin: 0 auto;
 `;
 
 export const Text = styled.p`
   position: relative;
-  width: 500px;
+  width: 550px;
 
+  padding: 20px;
   margin: auto 0;
-  padding-right: 40px;
   border-right: 1px solid #a9a9a9;
 
   ::after {
