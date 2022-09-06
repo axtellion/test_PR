@@ -60,7 +60,7 @@ export const CartTitle = styled.div`
     width: 400px;
 
     padding-bottom: 10px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #a9a9a9;
   }
 `;
 
@@ -97,5 +97,6 @@ export const CartSumText = styled.p`
   span {
     font-size: 15px;
     font-weight: 400px;
+    color: #a9a9a9;
   }
 `;

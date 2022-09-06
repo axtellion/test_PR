@@ -12,7 +12,8 @@ export const Btn = styled.button`
   background-color: gold;
   border: none;
 
-  padding: 10px 15px 10px 15px;
+  height: 50px;
+  padding: 10px 15px;
   border-radius: 10px;
 `;
 
@@ -40,7 +41,7 @@ export const Title = styled.h2`
 
 export const OfferForm = styled(Form)`
   width: 1200px;
-  height: 100px;
+  height: 130px;
 
   display: flex;
   justify-content: center;
@@ -52,13 +53,68 @@ export const OfferForm = styled(Form)`
 `;
 
 export const OfferInput = styled(Field)`
+  height: 40px;
+
+  color: white;
   background-color: transparent;
+
   border: none;
+  outline: none;
 
-  border-bottom: 1px solid white;
-
+  border-bottom: 1px solid #a9a9a9;
+  :focus {
+    border-bottom: 1px solid gold;
+  }
   ::placeholder {
     color: white;
     padding: 10px;
+  }
+`;
+
+export const RadioInput = styled(Field)`
+  position: absolute;
+  left: -500px;
+  top: -1000px;
+`;
+
+export const Style = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 1px solid #a9a9a9;
+  margin-right: 20px;
+  div .show {
+    background-color: white;
+    :hover {
+      color: gold;
+    }
+  }
+  a {
+    :hover {
+      color: gold;
+    }
+  }
+  gap: 5px;
+  #dropdown {
+    height: 40px;
+    color: #a9a9a9;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0;
+    :hover,
+    :focus,
+    :active {
+      box-shadow: none;
+    }
+    ::after {
+      display: none;
+    }
+  }
+  svg {
+    width: 20px;
+    height: 20px;
+    color: #a9a9a9;
   }
 `;

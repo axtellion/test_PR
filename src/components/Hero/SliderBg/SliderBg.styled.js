@@ -14,6 +14,15 @@ export const Container = styled.div`
   span {
     display: none;
   }
+  .carousel-indicators {
+    right: 1200px;
+    button {
+      background: gold;
+      border-radius: 100%;
+      width: 20px;
+      height: 5px;
+    }
+  }
 `;
 
 export const BgHero = styled.img`

@@ -30,6 +30,7 @@ export const Btn = styled.button`
   background-color: gold;
   padding: 10px 20px 10px 20px;
 
+  height: 50px;
   border-radius: 10px;
   border: none;
 `;

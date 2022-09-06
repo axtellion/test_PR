@@ -28,5 +28,21 @@ export const Container = styled.div`
 `;
 
 export const Text = styled.p`
+  position: relative;
   width: 500px;
+
+  margin: auto 0;
+  padding-right: 40px;
+  border-right: 1px solid #a9a9a9;
+
+  ::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: gold;
+    border-radius: 50%;
+    position: absolute;
+    right: -5px;
+    top: 0;
+  }
 `;

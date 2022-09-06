@@ -13,8 +13,8 @@ export const Container = styled.div`
 
 export const Text = styled.p`
   width: 325px;
-  border-top: 0.2px solid black;
-  border-bottom: 0.2px solid black;
+  border-top: 1px solid #a9a9a9;
+  border-bottom: 1px solid #a9a9a9;
 
   padding-top: 15px;
   padding-bottom: 15px;
@@ -38,9 +38,8 @@ export const LogoText = styled.p`
 `;
 
 export const Title = styled.h3`
-  color: white;
-
   margin-bottom: 40px;
+  color: white;
 `;
 
 export const List = styled.ul`
@@ -51,6 +50,12 @@ export const List = styled.ul`
   li {
     a {
       color: white;
+      :hover,
+      :active,
+      :focus {
+        outline: none;
+        color: gold;
+      }
     }
   }
 `;
@@ -63,22 +68,39 @@ export const SocialList = styled.ul`
   margin-bottom: 20px;
 
   padding-bottom: 10px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #a9a9a9;
+
+  color: white;
 `;
 
 export const SocialItem = styled.li`
   display: flex;
+  align-items: center;
   gap: 10px;
+
+  cursor: pointer;
+  :hover {
+    color: gold;
+  }
+  svg {
+    width: 20px;
+    height: 20px;
+  }
 `;
 
 export const SocialIcon = styled.ul`
   display: flex;
   gap: 20px;
+
+  color: white;
   svg {
+    cursor: pointer;
     width: 25px;
     height: 25px;
-    color: white;
 
     border: red;
+    :hover {
+      color: gold;
+    }
   }
 `;

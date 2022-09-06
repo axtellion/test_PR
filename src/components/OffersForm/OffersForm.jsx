@@ -1,4 +1,7 @@
 import { Formik, ErrorMessage } from 'formik';
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
+import { IoIosArrowDown } from 'react-icons/io';
 import * as yup from 'yup';
 import {
   ErrorForm,
@@ -7,6 +10,8 @@ import {
   Title,
   OfferForm,
   OfferInput,
+  RadioInput,
+  Style,
 } from './OffersForm.styled';
 
 const phoneRegExp =
@@ -42,35 +47,57 @@ export const OffersForm = () => {
         <OfferForm>
           <label>
             <OfferInput name="name" type="text" placeholder="Name" />
-            <ErrorMessage name="name" component={ErrorForm} />
+            <ErrorMessage name="Name" component={ErrorForm} />
           </label>
           <label>
             <OfferInput name="email" type="email" placeholder="Email" />
-            <ErrorMessage name="name" component={ErrorForm} />
+            <ErrorMessage name="Email" component={ErrorForm} />
           </label>
           <label>
             <OfferInput name="phone" type="text" placeholder="Phone" />
-            <ErrorMessage name="name" component={ErrorForm} />
+            <ErrorMessage name="Phone" component={ErrorForm} />
           </label>
-          <label>
-            <OfferInput
-              name="position_id"
-              type="text"
-              placeholder="Страна тура"
-            />
-            <ErrorMessage name="name" component={ErrorForm} />
-          </label>
-          {/* <label>
-            <Field name="position_id" type="radio" value="1" />
-            Турция
-            <Field name="position_id" type="radio" value="2" />
-            Египет
-            <Field name="position_id" type="radio" value="3" />
-            Шри-Ланка
-            <Field name="position_id" type="radio" value="4" />
-            Доминикана
-            <ErrorMessage name="name" component={ErrorForm} />
-          </label> */}
+          <Style>
+            <DropdownButton id="dropdown" title="Страна тура">
+              <Dropdown.Item href="#/action-1">
+                <RadioInput
+                  name="position_id"
+                  type="radio"
+                  value="Турция"
+                  id="1"
+                />
+                <label htmlFor="1">Турция</label>
+              </Dropdown.Item>
+              <Dropdown.Item href="#/action-2">
+                <RadioInput
+                  name="position_id"
+                  type="radio"
+                  value="Египет"
+                  id="2"
+                />
+                <label htmlFor="2">Египет</label>
+              </Dropdown.Item>
+              <Dropdown.Item href="#/action-3">
+                <RadioInput
+                  name="position_id"
+                  type="radio"
+                  value="ри-Ланка"
+                  id="3"
+                />
+                <label htmlFor="3">Шри-Ланка</label>
+              </Dropdown.Item>
+              <Dropdown.Item href="#/action-4">
+                <RadioInput
+                  name="position_id"
+                  type="radio"
+                  value="Доминикана"
+                  id="4"
+                />
+                <label htmlFor="4">Доминикана</label>
+              </Dropdown.Item>
+            </DropdownButton>
+            <IoIosArrowDown />
+          </Style>
           <Btn type="submit">Получить предложения</Btn>
         </OfferForm>
       </Formik>
