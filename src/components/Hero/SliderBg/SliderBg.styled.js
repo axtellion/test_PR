@@ -16,6 +16,9 @@ export const Container = styled.div`
   }
   .carousel-indicators {
     right: 1000px;
+    @media screen and (min-width: 1200px) {
+      right: 700px;
+    }
     button {
       background: gold;
       border-radius: 50%;
