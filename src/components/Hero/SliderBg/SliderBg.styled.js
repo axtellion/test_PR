@@ -15,7 +15,7 @@ export const Container = styled.div`
     display: none;
   }
   .carousel-indicators {
-    right: 1200px;
+    right: 1000px;
     button {
       background: gold;
       border-radius: 100%;
