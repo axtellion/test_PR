@@ -3,7 +3,7 @@ import {
   ImgLogo,
   NavList,
   NavItem,
-  SocialItem,
+  SocialIcon,
   LogoLink,
 } from './AppBar.styled';
 
@@ -32,14 +32,14 @@ export const AppBar = () => {
               <p>+38 (099) 990-81-00 (viber, telegram)</p>
             </NavItem>
           </NavList>
-          <SocialItem>
+          <SocialIcon>
             <li>
               <AiOutlineFacebook />
             </li>
             <li>
               <AiOutlineInstagram />
             </li>
-          </SocialItem>
+          </SocialIcon>
         </Box>
         <MenuHero />
       </Box>

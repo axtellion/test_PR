@@ -16,7 +16,7 @@ export const NavItem = styled.li`
   gap: 10px;
 `;
 
-export const SocialItem = styled.ul`
+export const SocialIcon = styled.ul`
   display: flex;
   gap: 20px;
 `;
